@@ -30,11 +30,11 @@ spec:
       containers:
       - resources:
           limits:
-            cpu: 800m
-            memory: 512Mi
+            cpu: 200m
+            memory: 256Mi
           requests:
-            cpu: 500m
-            memory: 512Mi
+            cpu: 200m
+            memory: 256Mi
         name: nginx
         image: nginx:1.14.2
         ports:
